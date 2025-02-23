@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-02-22T20:16:18.783699" rpa="false" schemaversion="5">
+<suite id="s1" name="Create User" source="C:\Workspace\robot-api-tests\tests\create_user.robot">
+<test id="s1-t1" name="Cadastrar Usuário" line="5">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-02-22T20:16:19.094865" level="INFO">${body} = {'nome': 'Matos Robot', 'email': 'matos262@qa.com.br', 'password': 'teste', 'administrador': 'true'}</msg>
+<var>${body}</var>
+<arg>nome=Matos Robot</arg>
+<arg>email=matos262@qa.com.br</arg>
+<arg>password=teste</arg>
+<arg>administrador=true</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-02-22T20:16:19.094584" elapsed="0.000316"/>
+</kw>
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<kw name="POST" owner="api_keywords">
+<msg time="2025-02-22T20:16:19.130674" level="FAIL">Recursive execution stopped.</msg>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.130337" elapsed="0.000372">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.130826" elapsed="0.000024"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.130136" elapsed="0.000879">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.131099" elapsed="0.000016"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.129924" elapsed="0.001331">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.131335" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.129718" elapsed="0.001765">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.131557" elapsed="0.000013"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.129479" elapsed="0.002220">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.131891" elapsed="0.000016"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.129207" elapsed="0.005728">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.135030" elapsed="0.000028"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.128769" elapsed="0.006439">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.135308" elapsed="0.000014"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.128478" elapsed="0.006974">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.135524" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.128280" elapsed="0.007383">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.135736" elapsed="0.000014"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.128087" elapsed="0.007788">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.135947" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.127880" elapsed="0.008203">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.136154" elapsed="0.000013"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.127679" elapsed="0.008616">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.136366" elapsed="0.000013"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.127478" elapsed="0.009024">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.136572" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.127270" elapsed="0.009439">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.136778" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.127003" elapsed="0.009914">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.136989" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.126808" elapsed="0.010313">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.137190" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.126601" elapsed="0.010719">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.137387" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.126400" elapsed="0.011114">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.137582" elapsed="0.000013"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.126200" elapsed="0.011548">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.137855" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.125944" elapsed="0.012068">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.138120" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.125517" elapsed="0.012745">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.138363" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.125235" elapsed="0.013282">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.138595" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.125035" elapsed="0.013686">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.138791" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.124829" elapsed="0.014098">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.139012" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.124627" elapsed="0.014518">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.139221" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.124422" elapsed="0.014922">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.139409" elapsed="0.000028"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.124221" elapsed="0.015332">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.139624" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.124026" elapsed="0.015725">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.139817" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.123816" elapsed="0.016126">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.140009" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.123619" elapsed="0.016600">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.140291" elapsed="0.000013"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.123396" elapsed="0.017021">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.140483" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.123194" elapsed="0.017412">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.140671" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.122977" elapsed="0.017815">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.140867" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.122733" elapsed="0.018256">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.141088" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.122302" elapsed="0.018952">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.141329" elapsed="0.000026"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.121672" elapsed="0.019815">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.141633" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.121379" elapsed="0.020376">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.141819" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.121178" elapsed="0.020756">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.141997" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.120986" elapsed="0.021127">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.142175" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.120786" elapsed="0.021504">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.142351" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.120580" elapsed="0.021886">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.142526" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.120383" elapsed="0.022261">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.142705" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.120191" elapsed="0.022627">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.142886" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.119996" elapsed="0.023004">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.143062" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.119802" elapsed="0.023375">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.143237" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.119583" elapsed="0.023766">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.143408" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.119383" elapsed="0.024133">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.143574" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.119182" elapsed="0.024500">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.143743" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.118916" elapsed="0.024969">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.143959" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.118400" elapsed="0.025684">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.144173" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.118062" elapsed="0.026240">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.144364" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.117865" elapsed="0.026609">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.144531" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.117667" elapsed="0.026994">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.144722" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.117476" elapsed="0.027363">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.144929" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.117272" elapsed="0.027770">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.145103" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.117079" elapsed="0.028134">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.145271" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.116859" elapsed="0.028520">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.145438" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.116654" elapsed="0.028889">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.145602" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.116454" elapsed="0.029252">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.145763" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.116262" elapsed="0.029603">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.145921" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.116061" elapsed="0.029961">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.146078" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.115849" elapsed="0.030333">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.146237" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.115640" elapsed="0.030697">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.147267" elapsed="0.000023"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.115282" elapsed="0.032198">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.147553" elapsed="0.000016"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.114907" elapsed="0.032768">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.147763" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.114648" elapsed="0.033217">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.147923" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.114431" elapsed="0.033591">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148077" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.114238" elapsed="0.033935">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148227" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.114037" elapsed="0.034287">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148380" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.113842" elapsed="0.034637">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148532" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.113637" elapsed="0.034991">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148680" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.113445" elapsed="0.035332">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148830" elapsed="0.000016"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.113245" elapsed="0.035688">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.148989" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.113055" elapsed="0.036028">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.149135" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.112858" elapsed="0.036374">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.149286" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.112653" elapsed="0.036728">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.149433" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.112451" elapsed="0.037073">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.149575" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.112168" elapsed="0.038941">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.151181" elapsed="0.000023"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.111750" elapsed="0.039615">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.151450" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.111446" elapsed="0.040104">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.151602" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.111246" elapsed="0.040448">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.151744" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.111048" elapsed="0.040786">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.151887" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.110850" elapsed="0.041128">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152029" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.110583" elapsed="0.041536">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152168" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.110307" elapsed="0.041947">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152303" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.110097" elapsed="0.042291">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152435" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.109888" elapsed="0.042634">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152571" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.109686" elapsed="0.042969">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152703" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.109483" elapsed="0.043306">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152837" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.109280" elapsed="0.043651">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.152978" elapsed="0.000012"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.109079" elapsed="0.043985">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.153112" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.108829" elapsed="0.044388">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.153302" elapsed="0.000015"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.108368" elapsed="0.045031">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.153478" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.108071" elapsed="0.045507">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.153625" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.107867" elapsed="0.045844">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.153758" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.107672" elapsed="0.046166">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.153893" elapsed="0.000014"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.107463" elapsed="0.046531">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154052" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.107263" elapsed="0.046886">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154195" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.107073" elapsed="0.047201">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154322" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.106875" elapsed="0.047526">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154447" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.106650" elapsed="0.047874">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154569" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.106452" elapsed="0.048197">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154693" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.106188" elapsed="0.048580">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154840" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.105958" elapsed="0.048973">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.154976" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.105725" elapsed="0.049327">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.155095" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.105492" elapsed="0.049679">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.155269" elapsed="0.000015"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.105019" elapsed="0.050369">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.155440" elapsed="0.000024"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.104305" elapsed="0.051247">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.155678" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.103990" elapsed="0.051766">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.155801" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.103788" elapsed="0.052087">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.155916" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.103597" elapsed="0.052391">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156028" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.103406" elapsed="0.052695">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156143" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.103212" elapsed="0.053003">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156257" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.103010" elapsed="0.053317">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156366" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.102807" elapsed="0.053631">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156478" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.102598" elapsed="0.053947">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156584" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.102406" elapsed="0.054248">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156693" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.102214" elapsed="0.054546">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156799" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.102011" elapsed="0.054861">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.156913" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.101698" elapsed="0.055284">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157019" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.101442" elapsed="0.055680">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157174" elapsed="0.000014"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.100961" elapsed="0.056294">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157323" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.100588" elapsed="0.056821">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157448" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.100401" elapsed="0.057114">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157552" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.100209" elapsed="0.057406">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157651" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.100016" elapsed="0.057699">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157751" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.099810" elapsed="0.058002">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.157851" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.099615" elapsed="0.058356">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158015" elapsed="0.000010"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.099421" elapsed="0.058662">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158121" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.099222" elapsed="0.058963">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158222" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.098993" elapsed="0.059290">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158318" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.098793" elapsed="0.059585">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158414" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.098586" elapsed="0.059886">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158510" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.098387" elapsed="0.060183">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158604" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.098179" elapsed="0.060481">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158713" elapsed="0.000017"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.097788" elapsed="0.061022">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.158869" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.097448" elapsed="0.061504">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159007" elapsed="0.000009"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.097190" elapsed="0.061876">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159099" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.096994" elapsed="0.062160">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159186" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.096779" elapsed="0.062462">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159274" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.096567" elapsed="0.062759">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159358" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.096369" elapsed="0.063043">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159445" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.096162" elapsed="0.063334">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159526" elapsed="0.000011"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.095953" elapsed="0.063628">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159613" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.095726" elapsed="0.063938">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159693" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>${BASE_URL}${endpoint}</arg>
+<arg>json=${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.095454" elapsed="0.064289">Recursive execution stopped.</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2025-02-22T20:16:19.159773" elapsed="0.000008"/>
+</return>
+<var>${response}</var>
+<arg>/usuarios</arg>
+<arg>${body}</arg>
+<status status="FAIL" start="2025-02-22T20:16:19.095190" elapsed="0.064631">Recursive execution stopped.</status>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${response.status_code}</arg>
+<arg>201</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="NOT RUN" start="2025-02-22T20:16:19.160018" elapsed="0.000021"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${response.json()}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-02-22T20:16:19.160181" elapsed="0.000016"/>
+</kw>
+<tag>create_user</tag>
+<status status="FAIL" start="2025-02-22T20:16:19.093779" elapsed="0.066675">Recursive execution stopped.</status>
+</test>
+<status status="FAIL" start="2025-02-22T20:16:18.784722" elapsed="0.376520"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">create_user</stat>
+</tag>
+<suite>
+<stat name="Create User" id="s1" pass="0" fail="1" skip="0">Create User</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-22T20:16:19.092660" level="ERROR">Error in file 'C:\Workspace\robot-api-tests\resources\api_keywords.robot' on line 3: Resource file 'variables.robot' does not exist.</msg>
+</errors>
+</robot>

@@ -1,0 +1,38 @@
+name: 🚀 Testes de API com Robot Framework
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do código
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: 📦 Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔬 Executar Testes Robot
+        run: |
+          robot -d results tests/
+
+      - name: 📤 Upload de Relatórios
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorios-testes
+          path: results/
